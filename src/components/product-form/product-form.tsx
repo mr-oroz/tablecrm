@@ -59,7 +59,7 @@ function ProductForm() {
 
     try {
       const response = await fetch(
-        'https://abcd-1234.ngrok.app/api/create-product',
+        '/api/create-product',
         {
           method: 'POST',
           headers: {
